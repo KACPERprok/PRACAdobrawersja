@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+#header {
+    background-color: #0d5f2d;
+    padding: 10px;
+}
+
+#header img {
+    height: 50px;
+    vertical-align: middle;
+}
+
+#header nav {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#baner {
+    background-color: #0d5f2d;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.goal-form {
+    background-color: #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.goal-form label {
+    color: #000;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.goal-form input[type="text"],
+.goal-form input[type="number"],
+.goal-form input[type="date"] {
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+}
+
+.goal-form button,
+.goal-form .cancel-button {
+    background-color: #0d5f2d;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.goal-form button:hover,
+.goal-form .cancel-button:hover {
+    background-color: #09491b;
+}
+
+.goal-form .cancel-button {
+    background-color: #09491b;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    display: block;
+    width: calc(100% - 22px); 
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+}
